@@ -1,0 +1,58 @@
+
+    .pumslu {
+        background: #0000DF00;
+        width: 340px;
+        z-index: 100;
+        padding: 20px 40px;
+        position: fixed;
+        transform: translate(50%, -50%);
+        right: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        display: none; /* تم إزالة display: none; */
+    }
+
+    .pumslu button {
+        display: block;
+        margin: 0 auto 9px 0;
+        background-color: #fff;
+        font-size: 17px;
+        color: #fc1717;
+        background: #0000DF00;
+        border-radius: 100%;
+        width: 60px;
+        height: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        z-index: 1000;
+    }
+
+    .pumslu h2 {
+        margin-top: -20px;
+    }
+
+    .pumslu p {
+        font-size: 14px;
+        text-align: justify;
+        margin: 20px 0;
+        line-height: 25px;
+    }
+
+    .pumslu a {
+        display: block;
+        width: 100px;
+        position: relative;
+        margin: 10px auto;
+        text-align: center;
+        background-color: #CC0000;
+        border-radius: 20px;
+        color: #fc1717;
+        text-decoration: none;
+        padding: 12px 0;
+    }
